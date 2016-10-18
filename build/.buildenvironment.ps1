@@ -6,21 +6,21 @@
 
 # The module we are building
 #   Example: 'FormatPowerShellCode'
-$ModuleToBuild = ''
+$ModuleToBuild = 'PostInstall'
 
 # Project website (used for external help cab file definition) 
 # Example: 'https://github.com/zloeber/FormatPowershellCode' 
-$ModuleWebsite = ''
+$ModuleWebsite = 'https://github.com/sundmoon/PostInstall'
 
 # Some tags that describe your module. 
 # Example: @('Code Formatting', 'Module Creation', 'Build Scripts')
-$ModuleTags = @()
+$ModuleTags = @('DSC')
 
 # Module Author
-$ModuleAuthor = ''
+$ModuleAuthor = 'Lev Tikhonov'
 
 # Module Author
-$ModuleDescription = ''
+$ModuleDescription = 'Post installation DSC based tasks instead of using unatend.xml'
 
 # Options - These affect how your eventual build will be run.
 $OptionFormatCode = $false
